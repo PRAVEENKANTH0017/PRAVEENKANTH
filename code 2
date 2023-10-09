@@ -8,3 +8,7 @@ y = (x == 20) ? 61: 90;
 System.out.println(&quot;Value of y is: &quot; + y);
 }
 }
+
+Output
+Value of y is: 90
+Value of y is: 61
