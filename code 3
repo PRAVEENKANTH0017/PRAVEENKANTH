@@ -1,0 +1,18 @@
+import java.util.Scanner; //scanner class
+class Eligibletovote {
+publicstaticvoid main(String[] args) {
+int CandiateEligibletovote=10;
+int Candiatenoteligibletovote=18; //variable declaration
+Scanner c=new Scanner(System.in);
+System.out.println(&quot;please enter your age&quot;);
+CandiateEligibletovote=c.nextInt();
+if(CandiateEligibletovote&gt;=Candiatenoteligibletovote) //condition to check
+eligible or not
+{
+System.out.println(&quot;congratulation you are eligible for voting&quot;);
+}
+else{
+System.out.println(&quot;Sorry you are not eligible for voting&quot;);
+}
+}
+}
