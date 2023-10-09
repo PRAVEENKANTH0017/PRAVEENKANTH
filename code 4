@@ -19,3 +19,7 @@ multiply s=new multiply();
 s.add();
 s.mul();
 }}
+
+Output
+a+b
+a*b
